@@ -63,11 +63,12 @@ $colection = StatsArrayHelper::create([
 ])
 ->mapWithKeys(fn ($stats, $key) => [$key => $stats->getChangeInPercentage().'%']);
 
-$colection->get('January');         // 0% (no previous value available)
-$colection->get('February');        // 400%
-$colection->get('March');           // 50%
-$colection->get('April');           // 167%
-$colection->get('May');             // -50%
+// Illuminate\Support\Collection
+'January' => '0%',                  // (no previous value available)
+'February' => '400%',
+'March' => '50%',
+'April' => '167%',
+'May' => '-50%',
 ```
 
 You can also set new values with the ``setPrev`` and ``setNext`` methods. This could be helpful in a for/foreach loop.
