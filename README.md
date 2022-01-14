@@ -1,5 +1,11 @@
 # Laravel Stats Helper
 
+[![Latest Stable Version](https://poser.pugx.org/label84/laravel-stats-helper/v/stable?style=flat-square)](https://packagist.org/packages/label84/laravel-stats-helper)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Quality Score](https://img.shields.io/scrutinizer/g/label84/laravel-stats-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/label84/laravel-stats-helper)
+[![Total Downloads](https://img.shields.io/packagist/dt/label84/laravel-stats-helper.svg?style=flat-square)](https://packagist.org/packages/label84/laravel-stats-helper)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/label84/laravel-stats-helper/run-tests?label=Tests&style=flat-square)
+
 With ``laravel-stats-helper`` you can get the statistics of two values or an array of values. It allows you to get the difference, percentage, change in percentage and an indicator whether the change is positive or negative. This helper could be useful in generating simple graphs or statistics for a dashboard or reporting page.
 
 - [Requirements](#requirements)
