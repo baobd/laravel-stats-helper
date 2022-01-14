@@ -1,0 +1,42 @@
+{
+    "name": "label84/laravel-stats-helper",
+    "description": "Helps you to calculate percentages and stats.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Label84",
+        "email": "info@tjardo.com"
+      }
+    ],    
+    "require": {
+      "php": "^7.4 || ^8.0",
+      "illuminate/support": "^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+          "Label84\\StatsHelper\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+          "Label84\\StatsHelper\\Tests\\": "tests"
+      }
+    }, 
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Label84\\StatsHelper\\StatsHelperServiceProvider"
+          ],
+          "aliases": {
+            "StatsHelper": "Label84\\StatsHelper\\Facades\\StatsHelper",
+            "StatsArrayHelper": "Label84\\StatsHelper\\Facades\\StatsArrayHelper"
+          }
+      }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "nunomaduro/larastan": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
